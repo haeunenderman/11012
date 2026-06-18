@@ -281,7 +281,7 @@ margin:0;
     font-weight: 300;
     position: absolute;
 	top: 0;
-	left: 43%;
+	left: 41%;
 	color: black;
 }
 
@@ -610,10 +610,10 @@ margin:0;
 
 .title1{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 300;
     position: absolute;
-	top: 30%;
+	top: 5%;
 	left: 5%;
 
 }
@@ -640,7 +640,8 @@ margin:0;
     font-weight: 300;
     position: absolute;
 	top: 0%;
-	left: 10%;
+	left: 0%;
+
 }
 
 .magazine{
@@ -648,8 +649,8 @@ margin:0;
     font-size: 30px;
     font-weight: 300;
     position: absolute;
-	top: 7%;
-	left: 10%;
+	top: 10%;
+	left: 0%;
 
 }
 
@@ -658,11 +659,19 @@ margin:0;
     font-size: 30px;
     font-weight: 300;
     position: absolute;
-	top: 14%;
-	left: 10%;
+	top: 20%;
+	left: 0%;
 
 }
 
+
+.year, .magazine, .archive {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 40px ;
+    position: absolute;
+    left: 0%;
+}
 
 
 
