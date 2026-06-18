@@ -1,5 +1,3 @@
-
-
 @media (max-width:600px){
 
 body{
@@ -84,70 +82,117 @@ margin:0;
 
 }
 
+
+
+
 @media (max-width: 600px) {
 
-
-   
-    
     body {
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        width: 100% !important;
-        padding: 20px 0 !important;
-        margin: 0 !important;
+        padding: 20px !important;
+
     }
 
+   
+    .month, .january, .picture, .content-wrapper-01, 
+    .author, .description-01, .gallery-with-descriptions {
+        position: static !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+
+   
+    .work-img {
+        width: 90% !important; 
+        height: auto !important;
+    }
+
+  
+    .one1, 
+    .ten1, 
+    .twelve24 {
+        font-size: 50px !important;
+        margin: 5px 0 !important;
+        position: relative;
+        z-index: 9999;
+
+    }
+
+    .one1 a,
+.ten1 a, 
+.twelve24 a {
+    color: black !important;
+    text-decoration: none;
+    transition: 0.3s; 
+    pointer-events: auto;
+}
+
+.one1 a:hover, 
+.ten1 a:hover, 
+.twelve24 a:hover {
+    color: #d9d9d9 !important;
+}
+
+.one1 a,
+.ten1 a,
+.twelve24 a{
+    display: inline-block;
+    cursor: pointer;
+     z-index: 9999 !important;
+        position: relative !important;
+}
+
+
+
+    .month {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: -20px !important; 
+        z-index: 9999 !important;
+        position: relative !important;
+    }
+
+
+ .home {
+        position: relative !important;
+        margin-top: 90px !important; 
+         margin-right: -500px !important; 
+        order: -1 !important;        
+        z-index: 999 !important;
+         margin-bottom: 0px !important;
+        display: block !important;
+        text-align: center !important;
+    }
+         
     .january {
-        order: 1 !important; 
         position: static !important;
         width: 100% !important;
         text-align: center !important;
-        margin-top: 0 !important;
+        margin-top: -80px !important; 
         margin-bottom: 20px !important;
+        margin-right: -15px !important;
+
     }
 
-    
-    .january-group{
-        display: flex !important;
-        justify-content: center !important;
-        font-size: 80px !important;
-    }
-   
-
-    
-    
-    
-      .month {
-        order: 2 !important;
+    .january-group {
         position: static !important;
         display: flex !important;
         justify-content: center !important;
-        gap: 20px !important;
-        margin-bottom: 40px !important; 
-    }
-    
-
-    .month article {
-    font-size: 20px !important; 
-        position: static !important;
+        font-size: 50px !important;
     }
 
 
-    }
 
-    
-    .picture {
-        order: 3 !important;
-        position: static !important;
-        width: 90% !important;
-           }
-    
-    .picture img {
-        width: 100% !important;
-        height: auto !important;
-        margin-bottom: 20px !important;
-    }
+
+
 }
 
 
@@ -173,7 +218,7 @@ margin:0;
     font-weight: 300;
     position: absolute;
 	top: 0;
-	left: 10%;
+	left: 10% !important;
 	color: black;
 }
 
@@ -183,7 +228,7 @@ margin:0;
     font-weight: 300;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 40% !important;
     color: black;
 }
 
@@ -236,7 +281,7 @@ margin:0;
     font-weight: 300;
     position: absolute;
 	top: 0;
-	left: 40%;
+	left: 43%;
 	color: black;
 }
 
@@ -257,7 +302,7 @@ margin:0;
     font-weight: 300;
     position: absolute;
 	top: 0;
-	right: 15%;
+	right: 10%;
 	color: black;
 
 }
@@ -291,7 +336,7 @@ margin:0;
     align-items: flex-end; 
     gap: 3px;       
     top: 2vh;         
-    left: 45vw;     
+    left: 47vw;     
 
 }
 
@@ -332,26 +377,12 @@ margin:0;
     gap: 40px;
 }
 
-.author {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 15%;          
-    text-align: right;
-    padding-right: 5%;   
-
-}
-
-.picture-group {
-    width: 40%;         
-        
-}
-
-.picture-item figcaption {
-    width: 30%;           
-
-}
 
 
 
+
+
+/*
 .content-wrapper-02 {
     display: flex;
     flex-direction: row;
@@ -361,8 +392,8 @@ margin:0;
     margin-left: 80px;
     gap: 20px; 
 }
-
-
+*/
+/*
 .author-02 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     flex: 1; 
@@ -370,24 +401,11 @@ margin:0;
     font-size: 20px;
     margin-left: 0px;
     margin-top: 20px;
-}
+}*/
 
 
-.image-gallery-02 {
-    flex: 3; 
-    display: flex;
-    gap: 10px; 
-    margin-left: 80px;
-}
 
-.image-gallery-02 img {
-    width: 250px;
-    max-width: 300px;
-    height: auto;
-    height: auto;
-}
-
-
+/*
 .description-02 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     flex: 2; 
@@ -397,7 +415,7 @@ margin:0;
 
 }
 
-
+*/
 
 
 
@@ -417,17 +435,17 @@ margin:0;
 
 
 
-.content-wrapper {
+/*.content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 90%;
     margin: 0 auto;
     gap: 20px; 
-}
+}*/
 
 
-.author {
+/*.author {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     flex: 1; 
     text-align: center;
@@ -435,28 +453,9 @@ margin:0;
     margin-left: 30px;
     margin-top: ;
 }
+*/
 
 
-.image-gallery {
-    flex: 3; 
-    display: flex;
-    gap: 10px; 
-}
-
-.image-gallery img {
-    width: 33%;
-    height: auto;
-}
-
-
-.description {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    flex: 2; 
-    line-height: 1.6;
-    font-size: 16px;
-    margin-left: 50px;
-
-}
 
 
 .gallery-with-descriptions {
@@ -488,35 +487,72 @@ margin:0;
 
 
 
+/*.content-wrapper-01 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   display: block !important;
+    width: 60% !important;        
+    margin-top: 50px !important; 
+    margin-bottom: 50px !important;
+    margin-left: 15% !important;  
+    margin-right: auto !important; 
+    text-align: left !important; 
+}*/
+
 .content-wrapper-01 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 95%;
-    margin: 0 auto;
-    gap: 40px; 
+    display: block !important;
+    width: 60% !important;
+    margin: 50px auto !important; 
+    text-align: left !important;  
 }
 
 
-.image-gallery-01{
-    flex: 3;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: flex-start
+.author {
+    max-width: 400px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    width: 15%;  
+    margin-bottom: 15px !important;        
+    text-align: center;
+    padding-right: 20px !important; 
+    word-break: keep-all; 
+    font-weight: 20px; 
+    word-break: keep-all;
+
 }
 
 
-.image-gallery-01 img {
-    width: 23%; 
-    height: auto;
-}
 
 .description-01 {
+    max-width: 400px !important;
+    margin: 20px auto !important;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    flex: 2;
-    line-height: 1.6;
-    font-size: 15px;
+    word-break: keep-all !important; 
+    line-height: 1.6; 
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+    word-break: keep-all;
+
+}
+
+.author, 
+.description-01 {
+    display: block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+   
+}
+
+
+
+
+
+.content-wrapper-01, 
+.picture-item {
+    margin-left: 14% !important;
 }
 
 
@@ -542,7 +578,7 @@ margin:0;
 }
 
 
-
+/*
 .picture2 {
     width: 100%;
     display: flex;
@@ -559,7 +595,7 @@ margin:0;
     margin-bottom: 30px;
     display: block;
 }
-
+*/
 
 
 .title{
@@ -582,15 +618,9 @@ margin:0;
 
 }
 
-.title2{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-    position: absolute;
-	top: 0%;
-	left: 5%;
 
-}
+
+
 
 .introduction{
 	/*background-color: skyblue;*/
