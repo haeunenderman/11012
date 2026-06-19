@@ -47,6 +47,7 @@ z-index: 1000;
 position:static !important;
 font-size:25px !important;
 margin:0;
+margin-left: 15px;
 
 }
 
@@ -56,6 +57,7 @@ margin:0;
 position:static !important;
 font-size:25px !important;
 margin:0;
+margin-left: 15px;
 }
 
 .one a,
@@ -122,8 +124,15 @@ margin:0;
         margin: 5px 0 !important;
         position: relative;
         z-index: 9999;
+        letter-spacing: 2px;
 
     }
+
+
+.ten1{
+  transform: translateX(10px) !important;
+}
+
 
     .one1 a,
 .ten1 a, 
@@ -170,6 +179,8 @@ margin:0;
          margin-bottom: 0px !important;
         display: block !important;
         text-align: center !important;
+                
+    
     }
          
     .january {
@@ -187,8 +198,17 @@ margin:0;
         display: flex !important;
         justify-content: center !important;
         font-size: 50px !important;
+        transform: translateX(3px) !important;
     }
-
+     .author{
+        font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;        
+    margin-bottom: 20px;
+    border-bottom: 2px solid black; 
+    display: inline-block;       
+     }
 
 
 
@@ -283,7 +303,13 @@ margin:0;
 	top: 0;
 	left: 41%;
 	color: black;
+     transform: translateX(30px);
 }
+
+ 
+
+
+
 
 .ten1 a {
     color: black !important;
@@ -336,7 +362,9 @@ margin:0;
     align-items: flex-end; 
     gap: 3px;       
     top: 2vh;         
-    left: 47vw;     
+    left: 47vw; 
+     transform: translateX(-5px); 
+
 
 }
 
@@ -503,6 +531,8 @@ margin:0;
     width: 60% !important;
     margin: 50px auto !important; 
     text-align: left !important;  
+    align-items: flex-start;
+
 }
 
 
@@ -517,6 +547,9 @@ margin:0;
     word-break: keep-all; 
     font-weight: 20px; 
     word-break: keep-all;
+    font-weight: bold;
+     border-bottom: 2px solid black; 
+    display: inline-block;   
 
 }
 
@@ -543,6 +576,7 @@ margin:0;
     margin-left: 0 !important;
     margin-right: 0 !important;
     width: 100% !important;
+
    
 }
 
