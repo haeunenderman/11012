@@ -9,7 +9,7 @@ padding:40px 0;
 }
 
 
-.title,
+
 .introduction{
     pointer-events: none;
 }
@@ -173,7 +173,7 @@ margin-left: 15px;
  .home {
         position: relative !important;
         margin-top: 90px !important; 
-         margin-right: -500px !important; 
+         margin-right: -400px !important; 
         order: -1 !important;        
         z-index: 999 !important;
          margin-bottom: 0px !important;
@@ -286,7 +286,7 @@ margin-left: 15px;
 
 .one1{
 	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 150px;
+    font-size: 50px;
     font-weight: 300;
     position: absolute;
 	top: 0;
@@ -297,13 +297,13 @@ margin-left: 15px;
 
 .ten1{
 	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 150px;
+    font-size: 50px;
     font-weight: 300;
     position: absolute;
 	top: 0;
 	left: 41%;
 	color: black;
-     transform: translateX(30px);
+     transform: translateX(60px);
 }
 
  
@@ -324,7 +324,7 @@ margin-left: 15px;
 
 .twelve24{
 	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 150px;
+    font-size: 50px;
     font-weight: 300;
     position: absolute;
 	top: 0;
@@ -335,12 +335,12 @@ margin-left: 15px;
 
 .home{
 	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 300;
 	color: black;
 	position: absolute;
-	bottom: 0%;
-	right: 10%;
+	top: 30%;
+	right: 5%;
 	
 
 
@@ -361,8 +361,8 @@ margin-left: 15px;
     display: flex;       
     align-items: flex-end; 
     gap: 3px;       
-    top: 2vh;         
-    left: 47vw; 
+    top: 0vh;         
+    left: 40vw; 
      transform: translateX(-5px); 
 
 
@@ -370,17 +370,16 @@ margin-left: 15px;
 
 .january1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 120px;
     font-weight: 300;
-    color: #d9d9d9;
     line-height: 1;      
 }
 
 .month1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 30px;
-    color: #d9d9d9;
+    font-size: 80px;
+   
     line-height: 1.4;  
 }
 
@@ -632,25 +631,6 @@ margin-left: 15px;
 */
 
 
-.title{
-	/*background-color: red;*/
-	width: 70vw;
-	height: 20vh;
-	position: absolute;
-	top: 80%;
-	left: 0;
-	z-index: -1;
-}
-
-.title1{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-    position: absolute;
-	top: 5%;
-	left: 5%;
-
-}
 
 
 
